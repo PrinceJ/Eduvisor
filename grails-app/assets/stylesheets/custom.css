@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 15-May-2015, 21:50:58
+    Author     : AbdulWasii
+*/
+
+@charset "UTF-8";
+/*limited reset*/
+html, body, div, section, article, aside, header,footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: geneva;
+}
+nav {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#logo {
+    background: url("../images/forge-logo.png") #ff9;
+}
+section {
+    clear: both;
+    height: auto;
+    padding: 0;
+    width: 100%;
+    border: 2px;
+    border-radius: 2px;
+}
+/*header banner*/
+
+#banner {
+    margin: 0;
+    padding: 2em 2em 0;
+    background: url("../images/indexBg.png") no-repeat fixed center center;
+    min-height: 25em;
+    clear: both;
+}
+
+.more {
+    height: 10em;
+    margin-bottom: .5em;
+
+}
+
+footer {
+    flex: 1 0 auto;
+}
+footer.page-footer {
+    margin-top: 0;
+    padding-top: 0;
+}
